@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="MyThingApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyThingApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot Title="My Things">
+            <PivotItem x:Name="Camera" Header="New Entry">
+                <Button x:Name="button" Content="Take Photo" HorizontalAlignment="Left" Margin="429,135,0,0" VerticalAlignment="Top" Click="button_Click"/>
+            </PivotItem>
+            <PivotItem Header="Camera">
+                <Grid>
+                    <UserControl x:Name="Camera1" HorizontalAlignment="Left" Height="100" Margin="413,251,0,0" VerticalAlignment="Top" Width="100" />
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="PivotItem 2">
+                <CaptureElement Height="150" Width="381" Margin="222,88,678,356.8"/>
+            </PivotItem>
+        </Pivot>
+
+    </Grid>
+</Page>

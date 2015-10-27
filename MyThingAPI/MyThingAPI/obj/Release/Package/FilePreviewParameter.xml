@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mythingapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\tan\\Documents\\Visual\ Studio\ 2015\\Projects\\MyThingAPI\\MyThingAPI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\tan\\Documents\\Visual\ Studio\ 2015\\Projects\\MyThingAPI\\MyThingAPI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MyThingAPIContext-Web.config Connection String" description="" value="Data Source=tcp:mythingdb.database.windows.net,1433;Initial Catalog=mythingapi_db;User Id=mything@mythingdb;Password=sy@870917" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tan\\Documents\\Visual\ Studio\ 2015\\Projects\\MyThingAPI\\MyThingAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyThingAPIContext']/@connectionString" />
+  </parameter>
+</parameters>
