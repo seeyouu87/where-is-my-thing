@@ -18,6 +18,8 @@ namespace MyThingIoT
     {
         private SerialDevice serialPort = null;
         DataReader dataReaderObject = null;
+        private const string BedroomID = "aerwwsdfxx-aasdzzz";//find your Arduino Device ID located in bedroom
+        private const string LivingroomID = "aeraexx-aasdxxx";//find your Arduino Device ID located in living room
 
         private CancellationTokenSource ReadCancellationTokenSource;
         private string rfidTags
@@ -53,7 +55,15 @@ namespace MyThingIoT
 
                     // Create cancellation token object to close I/O operations when closing the device
                     ReadCancellationTokenSource = new CancellationTokenSource();
-                    await ReadAsync(ReadCancellationTokenSource.Token);
+                    switch (info.Id.ToString())
+                    {
+                        case BedroomID:
+                            await ReadAsyncBedroom(ReadCancellationTokenSource.Token);
+                            break;
+                        case LivingroomID:
+                            await ReadAsyncBedroom(ReadCancellationTokenSource.Token);
+                            break;
+                    }
 
                 }
 
@@ -64,7 +74,7 @@ namespace MyThingIoT
             }
         }
 
-        private async Task ReadAsync(CancellationToken cancellationToken)
+        private async Task ReadAsyncBedroom(CancellationToken cancellationToken)
         {
             try
             {
@@ -89,7 +99,7 @@ namespace MyThingIoT
                     //get the RFID tags returned by Arduino + RFID module
                     this.rfidTags = dataReaderObject.ReadString(bytesRead);
                     //run the send RFID function:
-                    sendRFID(this.rfidTags);
+                    sendRFID(this.rfidTags, "bedroom");
                 }
 
             }
@@ -99,6 +109,40 @@ namespace MyThingIoT
             }
         }
 
+        private async Task ReadAsyncLivingroom(CancellationToken cancellationToken)
+        {
+            try
+            {
+                Task<UInt32> loadAsyncTask;
+
+                uint ReadBufferLength = 1024;
+
+                // If task cancellation was requested, comply
+                cancellationToken.ThrowIfCancellationRequested();
+
+                // Set InputStreamOptions to complete the asynchronous read operation when one or more bytes is available
+                dataReaderObject.InputStreamOptions = InputStreamOptions.Partial;
+
+                // Create a task object to wait for data on the serialPort.InputStream
+                loadAsyncTask = dataReaderObject.LoadAsync(ReadBufferLength).AsTask(cancellationToken);
+
+                // Launch the task and wait
+                UInt32 bytesRead = await loadAsyncTask;
+
+                if (bytesRead > 0)
+                {
+                    //get the RFID tags returned by Arduino + RFID module
+                    this.rfidTags = dataReaderObject.ReadString(bytesRead);
+                    //run the send RFID function:
+                    sendRFID(this.rfidTags, "living room");
+                }
+
+            }
+            catch
+            {
+                //don't think need to write error log at the moment
+            }
+        }
         /// <summary>
         /// CancelReadTask:
         /// - Uses the ReadCancellationTokenSource to cancel read operations
@@ -117,14 +161,14 @@ namespace MyThingIoT
         /// <summary>
         /// Process RFID data and send over to web api
         /// </summary>
-        private void sendRFID(string myrfid)
+        private void sendRFID(string myrfid, string loc)
         {
             try
             {
 
                 List<string> rfidList = JsonConvert.DeserializeObject<List<string>>(myrfid);
                 //get all clothes records in database:
-                HttpWebRequest getrequest = (HttpWebRequest)HttpWebRequest.Create("http://smartwardrobe.azurewebsites.net/api/clothes");
+                HttpWebRequest getrequest = (HttpWebRequest)HttpWebRequest.Create("http://mythingapi.azurewebsites.net/api/MyThings");
 
                 getrequest.Method = "GET";
                 getrequest.ContentType = "application/json;charset=utf-8";
@@ -135,114 +179,96 @@ namespace MyThingIoT
                     Stream mystream = response.GetResponseStream();
                     StreamReader sr = new StreamReader(mystream);
                     string returnval = sr.ReadToEnd();
-                    List<string> existingRFIDList = JsonConvert.DeserializeObject<List<string>>(returnval);
+                    List<MyThingObj> existingItemList = JsonConvert.DeserializeObject<List<MyThingObj>>(returnval);
 
-                    if (existingRFIDList.Count > rfidList.Count)
+                    if (existingItemList.Count < rfidList.Count)
                     {
-                        //cloth has been taken out
                         //find the missing rfid:
-                        foreach (string existRFID in existingRFIDList)
+                        foreach (string rfDetected in rfidList)
                         {
-                            if (rfidList.Contains(existRFID))
+                            if (existingItemList.FindAll(o=>o.rfid.Equals(rfDetected)).Count>0)
                             {
                                 continue;
                             }
                             else
                             {
-                                //add action
-                                string actionbody = JsonConvert.SerializeObject(new ActionObj()
+                                //add new rfid
+                                string itembody = JsonConvert.SerializeObject(new MyThingObj()
                                 {
-                                    rfid = existRFID,
-                                    status = "1"
+                                    rfid = rfDetected,
+                                    status = "1",
+                                    location =loc
                                 });
-                                HttpWebRequest actionrequest = (HttpWebRequest)HttpWebRequest.Create("http://smartwardrobe.azurewebsites.net/api/actions");
+                                HttpWebRequest Addrequest = (HttpWebRequest)HttpWebRequest.Create("http://mythingapi.azurewebsites.net/api/MyThings");
 
-                                actionrequest.Method = "POST";
-                                actionrequest.ContentType = "application/json;charset=utf-8";
+                                Addrequest.Method = "POST";
+                                Addrequest.ContentType = "application/json;charset=utf-8";
 
-                                actionrequest.BeginGetRequestStream((ar) =>
+                                Addrequest.BeginGetRequestStream((ar) =>
                                 {
                                     System.Text.UTF8Encoding encoding = new System.Text.UTF8Encoding();
-                                    byte[] bytes = encoding.GetBytes(actionbody);
-                                    Stream arStream = actionrequest.EndGetRequestStream(ar);
+                                    byte[] bytes = encoding.GetBytes(itembody);
+                                    Stream arStream = Addrequest.EndGetRequestStream(ar);
                                     arStream.Write(bytes, 0, bytes.Length);
-                                    actionrequest.BeginGetResponse((arRes) =>
+                                    Addrequest.BeginGetResponse((arRes) =>
                                     {
-                                        HttpWebResponse actionresponse = (HttpWebResponse)actionrequest.EndGetResponse(arRes);
+                                        HttpWebResponse thingresponse = (HttpWebResponse)Addrequest.EndGetResponse(arRes);
 
-                                    }, actionrequest);
-                                }, actionrequest);
+                                    }, Addrequest);
+                                }, Addrequest);
                             }
                         }
                     }
-                    else if (existingRFIDList.Count < rfidList.Count)
+                    else if (existingItemList.Count > rfidList.Count)
                     {
-                        //new clt is added:
-                        string clothbody = JsonConvert.SerializeObject(new ClothObj()
+                        string itembody = string.Empty;
+                        foreach (MyThingObj myThing in existingItemList)
                         {
-                            rfid = myrfid,
-                            status = "0",
-                            img = new byte[] { },
-                            name = "test",
-                            type = "dress",
-                            color = "yellow",
-                            createdAt = DateTime.Now,
-                            lastUpdatedAt = DateTime.Now,
-                            frequency = 0
-                        });
+                            if (rfidList.Contains(myThing.rfid)) {
+                                //new clt is added:
+                                itembody = JsonConvert.SerializeObject(new MyThingObj()
+                                {
+                                    rfid = myThing.rfid,
+                                    status = "0",
+                                    location = loc
+                                });
 
-                        HttpWebRequest clothrequest = (HttpWebRequest)HttpWebRequest.Create("http://smartwardrobe.azurewebsites.net/api/clothes/" + myrfid);
+                            }
+                            else {
+                                itembody = JsonConvert.SerializeObject(new MyThingObj()
+                                {
+                                    rfid = myThing.rfid,
+                                    status = "0",
+                                    location = "missing"
+                                });
+                            }
+                            HttpWebRequest clothrequest = (HttpWebRequest)HttpWebRequest.Create("http://mythingapi.azurewebsites.net/api/MyThings/" + myThing.id);
 
-                        clothrequest.Method = "POST";
-                        clothrequest.ContentType = "application/json;charset=utf-8";
+                            clothrequest.Method = "PUT";
+                            clothrequest.ContentType = "application/json;charset=utf-8";
 
-                        clothrequest.BeginGetRequestStream((a) =>
-                        {
-
-                            System.Text.UTF8Encoding encoding = new System.Text.UTF8Encoding();
-
-
-                            byte[] bytes = encoding.GetBytes(clothbody);
-
-                            Stream requestStream = clothrequest.EndGetRequestStream(a);
-                            // Send the data.
-                            requestStream.Write(bytes, 0, bytes.Length);
-                        }, clothrequest);
-
-                        //after sending data, get the response
-                        clothrequest.BeginGetResponse((cr) =>
-                        {
-                            HttpWebResponse clothresponse = (HttpWebResponse)clothrequest.EndGetResponse(cr);
-
-                        }, null);
-                    }
-                    else
-                    {
-                        //all clothes are back inside wardrobe, update all status:
-                        //add action
-                        string actionbody = JsonConvert.SerializeObject(new ActionObj()
-                        {
-                            rfid = "",
-                            status = "1"
-                        });
-                        HttpWebRequest actionrequest = (HttpWebRequest)HttpWebRequest.Create("http://smartwardrobe.azurewebsites.net/api/actions");
-
-                        actionrequest.Method = "POST";
-                        actionrequest.ContentType = "application/json;charset=utf-8";
-
-                        actionrequest.BeginGetRequestStream((ar) =>
-                        {
-                            System.Text.UTF8Encoding encoding = new System.Text.UTF8Encoding();
-                            byte[] bytes = encoding.GetBytes(actionbody);
-                            Stream arStream = actionrequest.EndGetRequestStream(ar);
-                            arStream.Write(bytes, 0, bytes.Length);
-                            actionrequest.BeginGetResponse((arRes) =>
+                            clothrequest.BeginGetRequestStream((a) =>
                             {
-                                HttpWebResponse actionresponse = (HttpWebResponse)actionrequest.EndGetResponse(arRes);
 
-                            }, actionrequest);
-                        }, actionrequest);
+                                System.Text.UTF8Encoding encoding = new System.Text.UTF8Encoding();
+
+
+                                byte[] bytes = encoding.GetBytes(itembody);
+
+                                Stream requestStream = clothrequest.EndGetRequestStream(a);
+                                // Send the data.
+                                requestStream.Write(bytes, 0, bytes.Length);
+                            }, clothrequest);
+
+                            //after sending data, get the response
+                            clothrequest.BeginGetResponse((cr) =>
+                            {
+                                HttpWebResponse res = (HttpWebResponse)clothrequest.EndGetResponse(cr);
+
+                            }, null);
+                        }
                     }
+                    
 
                 }, null);
             }
@@ -252,30 +278,24 @@ namespace MyThingIoT
             }
         }
 
-        private class ActionObj
+        private class MyThingObj
         {
-            public int id;
-            public string status = "0";
-            public string rfid;
-            public DateTime createdAt = DateTime.Now;
-        }
+            public int id { get; set; }
 
+            public String status { get; set; }
 
-        //Generic object for Clothes
-        private class ClothObj
-        {
-            public int id;
-            public string status = "0";
-            public string rfid;
-            public Byte[] img;
-            public string name;
-            public string type;
-            public string color;
-            public DateTime createdAt = DateTime.Now;
+            public String rfid { get; set; }
 
-            public DateTime lastUpdatedAt = DateTime.Now;
+            public Byte[] image { get; set; }
 
-            public int frequency = 0;
+            public String name { get; set; }
+
+            public String type { get; set; }
+
+            public String location { get; set; }
+
+            public DateTime lastUpdatedAt { get; set; }
+
         }
 
     }

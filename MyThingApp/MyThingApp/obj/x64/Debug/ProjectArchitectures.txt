@@ -1,0 +1,1 @@
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\MyThingApp.csproj;x64

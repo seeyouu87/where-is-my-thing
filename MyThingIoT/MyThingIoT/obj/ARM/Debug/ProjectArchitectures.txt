@@ -1,1 +1,1 @@
-C:\Users\tan\documents\visual studio 2015\Projects\MyThingIoT\MyThingIoT\MyThingIoT.csproj;arm
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingIoT\MyThingIoT\MyThingIoT.csproj;arm

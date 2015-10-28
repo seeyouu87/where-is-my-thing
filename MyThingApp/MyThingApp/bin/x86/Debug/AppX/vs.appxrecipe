@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>68558202-2841-4831-b3fe-05b3e761abf2</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>FB32B6434A51735109FE0628D1936978BB48D71F012A05954639FC139FB9C015</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68558202-2841-4831-b3fe-05b3e761abf2_1.0.0.0_x86__8shyq0dyr8b28</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68558202-2841-4831-b3fe-05b3e761abf2_8shyq0dyr8b28!App</RegisteredUserModeAppID>
@@ -19,490 +19,494 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-26T15:39:31.599</Modified>
+      <Modified>2015-10-28T05:01:55.047</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2015-10-26T13:11:11.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2015-06-04T14:32:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\ClrCompression.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
       <Modified>2015-08-20T16:50:10.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\entrypoint\MyThingApp.exe">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\entrypoint\MyThingApp.exe">
       <PackagePath>entrypoint\MyThingApp.exe</PackagePath>
-      <Modified>2015-10-26T15:39:30.952</Modified>
+      <Modified>2015-10-28T05:01:53.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
       <Modified>2015-08-28T16:15:22.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
       <Modified>2015-08-28T16:15:22.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
       <Modified>2015-08-28T16:15:22.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\MyThingApp.exe">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\MyThingApp.exe">
       <PackagePath>MyThingApp.exe</PackagePath>
-      <Modified>2015-10-26T15:39:31.557</Modified>
+      <Modified>2015-10-28T05:01:55.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\MyThingApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\MyThingApp.xr.xml">
       <PackagePath>MyThingApp.xr.xml</PackagePath>
-      <Modified>2015-10-26T15:07:06.577</Modified>
+      <Modified>2015-10-28T05:01:53.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-09-11T13:50:36.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-10-26T13:10:46.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\resources.pri">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-26T15:07:07.899</Modified>
+      <Modified>2015-10-28T05:01:54.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
       <Modified>2015-08-20T16:49:39.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
       <Modified>2015-08-20T16:50:01.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
       <Modified>2015-08-20T16:49:33.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
       <Modified>2015-08-20T16:49:36.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
       <Modified>2015-08-20T16:49:36.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
       <Modified>2015-08-20T16:49:42.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.dll">
       <PackagePath>System.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
       <Modified>2015-08-20T16:49:43.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
       <Modified>2015-08-20T16:49:46.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
       <Modified>2015-08-20T16:49:45.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
       <Modified>2015-08-20T16:49:46.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
       <Modified>2015-08-20T16:49:46.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
       <Modified>2015-08-20T16:49:46.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
       <Modified>2015-08-20T16:49:47.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
       <Modified>2015-08-20T16:49:46.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:47.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.101</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
       <Modified>2015-08-20T16:49:47.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2015-08-20T16:49:47.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
       <Modified>2015-08-20T16:50:10.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
       <Modified>2015-08-20T16:50:10.900</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
       <Modified>2015-08-20T16:50:10.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.667</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
       <Modified>2015-08-20T16:49:48.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
       <Modified>2015-08-20T16:49:49.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.601</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
       <Modified>2015-08-20T16:49:39.773</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:42.570</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
       <Modified>2015-08-20T16:49:39.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
       <Modified>2015-08-20T16:49:42.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.307</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.602</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
       <Modified>2015-08-20T16:49:50.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
       <Modified>2015-08-20T16:49:58.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
       <Modified>2015-08-20T16:49:53.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
       <Modified>2015-08-20T16:49:59.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
       <Modified>2015-08-20T16:49:37.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
       <Modified>2015-08-20T16:49:59.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.914</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-08-20T16:49:40.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\MyThingApp\MyThingApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2015-08-20T15:59:43.714</Modified>
     </AppxPackagedFile>
