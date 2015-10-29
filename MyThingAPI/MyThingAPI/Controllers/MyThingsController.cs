@@ -10,9 +10,22 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using MyThingAPI.Models;
 using Microsoft.ServiceBus.Notifications;
+using System.Threading;
+using System.Diagnostics;
 
 namespace MyThingAPI.Controllers
 {
+    public class NotificationClass {
+
+        internal async System.Threading.Tasks.Task<ThreadStart> SendNotificationAsync(string rfid)
+        {
+            NotificationHubClient hub = NotificationHubClient
+                 .CreateClientFromConnectionString("<your connection string>", "<hub name>");
+            var toast = @"<toast launch=""" + rfid + @"""><visual><binding template=""ToastText01""><text id=""1"">New Mything need to update</text></binding></visual></toast>";//<param>/MainPage.xaml?value=test</param>
+            await hub.SendWindowsNativeNotificationAsync(toast);
+            return null;
+        }
+    }
     public class MyThingsController : ApiController
     {
         private MyThingAPIContext db = new MyThingAPIContext();
@@ -82,7 +95,13 @@ namespace MyThingAPI.Controllers
 
             db.MyThings.Add(myThing);
             db.SaveChanges();
-            SendNotificationAsync(myThing.rfid);
+            try
+            {
+                NotificationClass notClass = new NotificationClass();
+                Thread notificationThread = new Thread(async x => { await notClass.SendNotificationAsync(myThing.rfid); });
+                notificationThread.Start();
+            }
+            catch { }
             return CreatedAtRoute("DefaultApi", new { id = myThing.id }, myThing);
         }
 
@@ -116,12 +135,6 @@ namespace MyThingAPI.Controllers
             return db.MyThings.Count(e => e.id == id) > 0;
         }
 
-        private static async void SendNotificationAsync(string rfid)
-        {
-            NotificationHubClient hub = NotificationHubClient
-                 .CreateClientFromConnectionString("<your connection string>", "<hub name>");
-            var toast = @"<toast launch="""+ rfid+ @"""><visual><binding template=""ToastText01""><text id=""1"">New Mything need to update</text></binding></visual></toast>";//<param>/MainPage.xaml?value=test</param>
-            await hub.SendWindowsNativeNotificationAsync(toast);
-        }
+        
     }
 }
