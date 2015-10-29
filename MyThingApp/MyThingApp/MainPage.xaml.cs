@@ -24,6 +24,7 @@ using System.Text;
 using Windows.UI.Notifications;
 using NotificationsExtensions.Tiles;
 using Windows.Networking.PushNotifications;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -49,11 +50,18 @@ namespace MyThingApp
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            base.OnNavigatedTo(e);
-            if (!string.IsNullOrEmpty(e.Parameter.ToString())) {
+            //base.OnNavigatedTo(e);
+            if (!string.IsNullOrEmpty(e.Parameter.ToString()))
+            {
                 textBlock.Text = e.Parameter.ToString();
                 rfid.Text = e.Parameter.ToString();
             }
+            else {
+                rfid.Text = "nothing captured";
+            }
+            //string strVal1 = this.NavigationContext.QueryString["value1"];
+            //string strVal2 = this.NavigationContext.QueryString["value2"];
+
         }
 
         private async void UpdateButton_Click(object sender, RoutedEventArgs e)
@@ -129,7 +137,7 @@ namespace MyThingApp
                 this.Frame.DataContext = existItemList[0];
                 id.Text = existItemList[0].id.ToString();
                 itemName.Text = existItemList[0].name != null ? existItemList[0].name : string.Empty;
-                rfid.Text = existItemList[0].rfid!=null? existItemList[0].rfid:string.Empty;
+                //rfid.Text = existItemList[0].rfid!=null? existItemList[0].rfid:string.Empty;
                 type.Text = existItemList[0].type != null ? existItemList[0].type:string.Empty;
                 Location.Text = "Location: " + existItemList[0].location;
                 if (existItemList[0].image != null)

@@ -19,6 +19,7 @@ using Microsoft.WindowsAzure.Messaging;
 using Windows.UI.Popups;
 using Windows.UI.Notifications;
 using NotificationsExtensions.Tiles;
+using Windows.UI.Core;
 
 namespace MyThingApp
 {
@@ -43,7 +44,7 @@ namespace MyThingApp
         {
             var channel = await PushNotificationChannelManager.CreatePushNotificationChannelForApplicationAsync();
 
-            var hub = new NotificationHub("notification", "<your connection string>");
+            var hub = new NotificationHub("notification", "Endpoint=sb://smartwardrobe.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=MlHoVfn1Ub/c2ThUha+Crn7hHSGmqofrW3cJ6IK89Ok=");
             var result = await hub.RegisterNativeAsync(channel.Uri);
 
             //// Displays the registration ID so you know it was successful
@@ -81,6 +82,7 @@ namespace MyThingApp
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+                //rootFrame.Navigated += RootFrame_Navigated; ;
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
@@ -101,6 +103,14 @@ namespace MyThingApp
             // Ensure the current window is active
             Window.Current.Activate();
             
+        }
+
+        private async void RootFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+           string test= e.Parameter.ToString();
+            var dialog = new MessageDialog("New Item with RFID: " + test + " is registered");
+            dialog.Commands.Add(new UICommand("OK"));
+            await dialog.ShowAsync();
         }
 
         /// <summary>

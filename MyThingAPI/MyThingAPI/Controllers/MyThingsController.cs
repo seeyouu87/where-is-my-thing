@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using MyThingAPI.Models;
+using Microsoft.ServiceBus.Notifications;
 
 namespace MyThingAPI.Controllers
 {
@@ -81,7 +82,7 @@ namespace MyThingAPI.Controllers
 
             db.MyThings.Add(myThing);
             db.SaveChanges();
-
+            SendNotificationAsync(myThing.rfid);
             return CreatedAtRoute("DefaultApi", new { id = myThing.id }, myThing);
         }
 
@@ -113,6 +114,14 @@ namespace MyThingAPI.Controllers
         private bool MyThingExists(int id)
         {
             return db.MyThings.Count(e => e.id == id) > 0;
+        }
+
+        private static async void SendNotificationAsync(string rfid)
+        {
+            NotificationHubClient hub = NotificationHubClient
+                 .CreateClientFromConnectionString("<your connection string>", "<hub name>");
+            var toast = @"<toast launch="""+ rfid+ @"""><visual><binding template=""ToastText01""><text id=""1"">New Mything need to update</text></binding></visual></toast>";//<param>/MainPage.xaml?value=test</param>
+            await hub.SendWindowsNativeNotificationAsync(toast);
         }
     }
 }

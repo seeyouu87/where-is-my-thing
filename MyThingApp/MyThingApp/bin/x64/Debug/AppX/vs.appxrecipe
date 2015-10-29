@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-29T04:29:55.219</Modified>
+      <Modified>2015-10-29T06:39:11.632</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\entrypoint\MyThingApp.exe">
       <PackagePath>entrypoint\MyThingApp.exe</PackagePath>
-      <Modified>2015-10-29T04:29:53.553</Modified>
+      <Modified>2015-10-29T06:39:10.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\MyThingApp.exe">
       <PackagePath>MyThingApp.exe</PackagePath>
-      <Modified>2015-10-29T04:29:55.212</Modified>
+      <Modified>2015-10-29T06:39:11.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\MyThingApp.xr.xml">
       <PackagePath>MyThingApp.xr.xml</PackagePath>
@@ -108,7 +108,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\NotificationsExtensions.winmd">
       <PackagePath>NotificationsExtensions.winmd</PackagePath>
-      <Modified>2015-10-29T02:05:17.457</Modified>
+      <Modified>2015-10-29T04:35:54.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -116,7 +116,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-29T02:55:04.375</Modified>
+      <Modified>2015-10-29T06:02:33.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
