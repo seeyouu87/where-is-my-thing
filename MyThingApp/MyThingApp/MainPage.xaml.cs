@@ -53,15 +53,12 @@ namespace MyThingApp
             //base.OnNavigatedTo(e);
             if (!string.IsNullOrEmpty(e.Parameter.ToString()))
             {
-                textBlock.Text = e.Parameter.ToString();
                 rfid.Text = e.Parameter.ToString();
             }
             else {
                 rfid.Text = "nothing captured";
             }
-            //string strVal1 = this.NavigationContext.QueryString["value1"];
-            //string strVal2 = this.NavigationContext.QueryString["value2"];
-
+            
         }
 
         private async void UpdateButton_Click(object sender, RoutedEventArgs e)

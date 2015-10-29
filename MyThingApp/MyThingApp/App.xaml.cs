@@ -82,7 +82,7 @@ namespace MyThingApp
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-                //rootFrame.Navigated += RootFrame_Navigated; ;
+                rootFrame.Navigated += RootFrame_Navigated; ;
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
@@ -108,9 +108,12 @@ namespace MyThingApp
         private async void RootFrame_Navigated(object sender, NavigationEventArgs e)
         {
            string test= e.Parameter.ToString();
-            var dialog = new MessageDialog("New Item with RFID: " + test + " is registered");
-            dialog.Commands.Add(new UICommand("OK"));
-            await dialog.ShowAsync();
+            if (!string.IsNullOrEmpty(test))
+            { 
+                var dialog = new MessageDialog("New Item with RFID: " + test + " is registered");
+                dialog.Commands.Add(new UICommand("OK"));
+                await dialog.ShowAsync();
+            }
         }
 
         /// <summary>
