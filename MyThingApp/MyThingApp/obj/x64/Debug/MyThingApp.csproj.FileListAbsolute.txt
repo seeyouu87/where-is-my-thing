@@ -437,3 +437,11 @@ C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\
 C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\Core\resources.pri
 C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\MyThingApp.csprojResolveAssemblyReference.cache
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Microsoft.WindowsAzure.Messaging.Managed.dll
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Microsoft.WindowsAzure.Messaging.Managed.dll
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\Microsoft.WindowsAzure.Messaging.Managed.pri.xml
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\Core\Microsoft.WindowsAzure.Messaging.Managed.dll
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\NotificationsExtensions.winmd
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\NotificationsExtensions.winmd
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\NotificationsExtensions.pri.xml
+C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\Core\NotificationsExtensions.winmd

@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="68558202-2841-4831-b3fe-05b3e761abf2" Publisher="CN=tan" Version="1.0.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="5916SeeYouu.MyThing" Publisher="CN=A2F69DC5-4D5E-4817-85D6-29A79E5B8281" Version="1.1.0.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="68558202-2841-4831-b3fe-05b3e761abf2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>MyThingApp</DisplayName>
-    <PublisherDisplayName>tan</PublisherDisplayName>
+    <DisplayName>MyThing</DisplayName>
+    <PublisherDisplayName>SeeYouu</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -22,8 +22,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="MyThingApp.exe" EntryPoint="MyThingApp.App">
-      <uap:VisualElements DisplayName="MyThingApp" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MyThingApp" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+      <uap:VisualElements DisplayName="MyThing" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="MyThingApp" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -31,6 +31,46 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastActionsSnoozeAndDismiss" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastSelectionBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastButtonSnooze" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastSelectionBoxItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastAppLogo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastActionsCustom" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastAudio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Toasts.ToastButtonDismiss" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBackgroundImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileSubgroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBinding" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBindingContentAdaptive" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBindingContentContact" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBasicText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBindingContentPeople" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBindingContentIconic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileBindingContentPhotos" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TilePeekImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Tiles.TileImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Badges.BadgeNumericNotificationContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="NotificationsExtensions.Badges.BadgeGlyphNotificationContent" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />

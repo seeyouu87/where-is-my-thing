@@ -10,19 +10,19 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>68558202-2841-4831-b3fe-05b3e761abf2</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\obj\x64\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>698B98A027E4F491FEDD24BE60590A4F1A8F6012B0386F8644A49308853AA567</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>68558202-2841-4831-b3fe-05b3e761abf2_1.0.0.0_x64__8shyq0dyr8b28</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>68558202-2841-4831-b3fe-05b3e761abf2_8shyq0dyr8b28!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>68558202-2841-4831-b3fe-05b3e761abf2</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=tan</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>5282F1B52B03331F71930ADD8684AA39A34927354942468F9B23D6E8B1ABDA36</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5916SeeYouu.MyThing_1.1.0.0_x64__16y87yzhrtm9g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5916SeeYouu.MyThing_16y87yzhrtm9g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5916SeeYouu.MyThing</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=A2F69DC5-4D5E-4817-85D6-29A79E5B8281</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-28T11:21:16.468</Modified>
+      <Modified>2015-10-29T04:29:55.219</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\entrypoint\MyThingApp.exe">
       <PackagePath>entrypoint\MyThingApp.exe</PackagePath>
-      <Modified>2015-10-28T11:21:15.316</Modified>
+      <Modified>2015-10-29T04:29:53.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -90,9 +90,13 @@
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-08-20T16:49:32.914</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Microsoft.WindowsAzure.Messaging.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.dll</PackagePath>
+      <Modified>2015-10-29T01:09:27.882</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\MyThingApp.exe">
       <PackagePath>MyThingApp.exe</PackagePath>
-      <Modified>2015-10-28T11:21:16.464</Modified>
+      <Modified>2015-10-29T04:29:55.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\MyThingApp.xr.xml">
       <PackagePath>MyThingApp.xr.xml</PackagePath>
@@ -102,13 +106,17 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2015-09-11T13:50:36.585</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\NotificationsExtensions.winmd">
+      <PackagePath>NotificationsExtensions.winmd</PackagePath>
+      <Modified>2015-10-29T02:05:17.457</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-10-26T13:10:46.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-28T11:21:15.927</Modified>
+      <Modified>2015-10-29T02:55:04.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tan\Documents\Visual Studio 2015\Projects\where-is-my-thing\MyThingApp\MyThingApp\bin\x64\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

@@ -21,6 +21,9 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.Storage.Streams;
 using System.Text;
+using Windows.UI.Notifications;
+using NotificationsExtensions.Tiles;
+using Windows.Networking.PushNotifications;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -37,10 +40,20 @@ namespace MyThingApp
         {
             this.InitializeComponent();
             DataContext = new MyThingObj();
-            LoadData();
             
+            LoadData();
+
+            this.NavigationCacheMode = NavigationCacheMode.Required;
             PickAFileButton.Click += new RoutedEventHandler(PickAFileButton_Click);
             button.Click += UpdateButton_Click;
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            if (!string.IsNullOrEmpty(e.Parameter.ToString())) {
+                textBlock.Text = e.Parameter.ToString();
+                rfid.Text = e.Parameter.ToString();
+            }
         }
 
         private async void UpdateButton_Click(object sender, RoutedEventArgs e)
